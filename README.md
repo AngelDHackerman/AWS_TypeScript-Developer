@@ -503,7 +503,7 @@ __Expected Result:__ A system that registers users and sends welcome emails.
   __Use Case:__ Retail businesses, both online and brick-and-mortar, can utilize this system to manage their inventory. It allows for real-time tracking of products, quantities, and locations, helping in restocking, reducing overstock, and providing insights into sales trends.
 
 
-### Subchallenge 1: Create an Inventory Table in DynamoDB
+#### Subchallenge 1: Create an Inventory Table in DynamoDB
 
 __Context:__ You need a table to store inventory items.
 
@@ -515,14 +515,18 @@ __Steps:__
 
 __Expected Result:__ A DynamoDB table ready to store inventory information.
 
-Subchallenge 2: Create Lambda Functions for CRUD Operations
-Context: These functions will handle creating, reading, updating, and deleting inventory items.
+#### Subchallenge 2: Create Lambda Functions for CRUD Operations
 
-Steps:
+__Context:__ These functions will handle creating, reading, updating, and deleting inventory items.
 
-Write TypeScript Lambda functions for each CRUD operation.
-Deploy the functions using AWS SDK or web interface.
-Expected Result: A set of Lambda functions that can manage inventory items in DynamoDB.
+__Steps:__
+
+* Write TypeScript Lambda functions for each CRUD operation.
+
+* Deploy the functions using AWS SDK or web interface.
+
+__Expected Result:__ A set of Lambda functions that can manage inventory items in DynamoDB.
+
 
 ### 3. Challenge: Real-time Analytics Dashboard
 
