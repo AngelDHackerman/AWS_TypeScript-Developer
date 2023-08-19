@@ -450,7 +450,128 @@ __Expected Output:__
 
 ## AWS and Typescript challanges: 
 
+### 1. Challenge: User Registration and Notification System
+
+> __General Context:__ In this challenge, you are tasked with building a user registration system that not only stores user information in a DynamoDB table but also sends welcome notifications via email. This involves creating a DynamoDB table, writing Lambda functions for registration and email notifications, and connecting them using EventBridge.
+
+__Subchallenge 1:__ Create a User Table in DynamoDB
+
+__Context:__ You will need a DynamoDB table to store user information.
+
+__Steps:__
 
 
+* Create a DynamoDB table with appropriate attributes (e.g., username, email).
 
-# Continue code here
+* Configure the table with suitable read and write capacity.
+
+__Expected Result:__ A DynamoDB table ready to store user information.
+
+__Subchallenge 2:__ Create a Lambda Function for User Registration.
+
+__Context:__ This Lambda function will handle user registration and store the data in the DynamoDB table.
+
+__Steps:__
+
+* Write a TypeScript Lambda function to handle user registration.
+
+* Deploy the function using AWS SDK or web interface.
+
+__Expected Result:__ A Lambda function that can register users and store them in DynamoDB.
+
+__Subchallenge 3:__ Create a Lambda Function for Sending Notifications
+
+__Context:__ This function will send welcome emails to users after registration.
+
+__Steps:__
+
+* Write a TypeScript Lambda function to send emails.
+
+* Connect it to the registration Lambda function using EventBridge.
+
+__Expected Result:__ A system that registers users and sends welcome emails.
+
+### 2. Challenge: Inventory Management System
+
+General Context: The goal of this challenge is to create a robust inventory management system using DynamoDB and Lambda functions. You'll need to design a DynamoDB table to store inventory items and write TypeScript Lambda functions to handle CRUD operations. This will allow for real-time tracking and management of inventory items.
+
+Subchallenge 1: Create an Inventory Table in DynamoDB
+Context: You need a table to store inventory items.
+
+Steps:
+
+Create a DynamoDB table with appropriate attributes (e.g., productID, quantity).
+Configure the table with suitable read and write capacity.
+Expected Result: A DynamoDB table ready to store inventory information.
+
+Subchallenge 2: Create Lambda Functions for CRUD Operations
+Context: These functions will handle creating, reading, updating, and deleting inventory items.
+
+Steps:
+
+Write TypeScript Lambda functions for each CRUD operation.
+Deploy the functions using AWS SDK or web interface.
+Expected Result: A set of Lambda functions that can manage inventory items in DynamoDB.
+
+### 3. Challenge: Real-time Analytics Dashboard
+
+General Context: This challenge focuses on building a real-time analytics dashboard that stores and updates data in a DynamoDB table. You'll create a table for analytics data and write a Lambda function to update this data in real-time. This system will enable monitoring and visualization of real-time analytics such as page views and user counts.
+
+Subchallenge 1: Create a Table for Storing Analytics Data in DynamoDB
+Context: You need a table to store real-time analytics data.
+
+Steps:
+
+Create a DynamoDB table with appropriate attributes (e.g., pageViews, userCount).
+Configure the table with suitable read and write capacity.
+Expected Result: A DynamoDB table ready to store analytics data.
+
+Subchallenge 2: Create a Lambda Function to Update Analytics
+Context: This function will update the analytics data in real-time.
+
+Steps:
+
+Write a TypeScript Lambda function to update analytics data.
+Deploy the function using AWS SDK or web interface.
+Expected Result: A Lambda function that can update real-time analytics data in DynamoDB.
+
+4. Challenge: Order Processing System
+Subchallenge 1: Create an Orders Table in DynamoDB
+Context: You need a table to store customer orders.
+
+Steps:
+
+Create a DynamoDB table with appropriate attributes (e.g., orderID, status).
+Configure the table with suitable read and write capacity.
+Expected Result: A DynamoDB table ready to store order information.
+
+Subchallenge 2: Create Lambda Functions to Process Orders
+Context: These functions will handle order processing, including payment and shipping.
+
+Steps:
+
+Write TypeScript Lambda functions for processing orders.
+Deploy the functions using AWS SDK or web interface.
+Expected Result: A set of Lambda functions that can process orders in DynamoDB.
+
+5. Challenge: Scheduled Data Cleanup
+Subchallenge 1: Create a Table for Storing Temporary Data in DynamoDB
+Context: You need a table to store temporary data that should be cleaned up regularly.
+
+Steps:
+
+Create a DynamoDB table with appropriate attributes (e.g., tempID, expirationDate).
+Configure the table with suitable read and write capacity.
+Expected Result: A DynamoDB table ready to store temporary data.
+
+Subchallenge 2: Create a Scheduled Lambda Function for Data Cleanup
+Context: This function will run on a schedule to clean up expired data.
+
+Steps:
+
+Write a TypeScript Lambda function to delete expired data.
+Schedule the function using EventBridge.
+Expected Result: A Lambda function that regularly cleans up expired data in DynamoDB.
+
+Estos ejercicios te ayudarán a familiarizarte con diferentes aspectos de DynamoDB y Lambda Functions en AWS usando TypeScript. ¡Buena suerte con tu aprendizaje y desarrollo de habilidades!
+
