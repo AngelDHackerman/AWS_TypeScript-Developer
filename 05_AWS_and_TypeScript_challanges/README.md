@@ -50,6 +50,17 @@ Create a `tsconfig.json` file in your project directory with the following conte
 }
 ```
 
+## Step 6: Write and Deploy Your Code
 
+You can now write your TypeScript code to interact with AWS services like DynamoDB and Lambda. Refer to the AWS SDK documentation for examples and API details.
 
+To compile your TypeScript code, run:
+
+`tsc --watch`
+
+To deploy your code to AWS, you can use the AWS CLI, AWS CloudFormation, or other deployment tools like the Serverless Framework.
+
+## Conclusion
+
+You're now ready to start working on AWS projects using TypeScript. Follow best practices, refer to the official AWS documentation, and happy coding!
 
