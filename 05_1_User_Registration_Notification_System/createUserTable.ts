@@ -1,3 +1,6 @@
+// This code will create a DynamoDB table with the name "Users_Registration_01"
+// With 2 parameters: "username" and "email" both are string type
+
 import * as AWS from 'aws-sdk'
 AWS.config.update({ region: 'us-east-1' })
 
@@ -8,7 +11,7 @@ const params = {
   TableName: 'Users_Registration_01',
   KeySchema: [
     { AttributeName: 'username', KeyType: 'HASH' }, // Partition Key
-    { AttributeName: 'email', KeyType: 'RANGE' },  // Range Key
+    { AttributeName: 'email', KeyType: 'RANGE' },  // Range (sort) Key
   ],
   AttributeDefinitions: [
     { AttributeName: 'username', AttributeType: 'S' },
