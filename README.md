@@ -450,6 +450,8 @@ __Expected Output:__
 
 ## AWS and Typescript challanges: 
 
+> More information about how and what to install in order to run this project can be found in the 05_AWS_and_TypeScript_challanges readme file.
+
 ### 1. Challenge: User Registration and Notification System
 
 -
