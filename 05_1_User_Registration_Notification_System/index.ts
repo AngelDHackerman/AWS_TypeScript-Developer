@@ -1,4 +1,4 @@
-// This is a Lambda function create  to handle user registration and store the data in the DynamoDB table.
+// This is a Lambda function was created to handle user registration and store the data in the DynamoDB table.
 
 import * as AWS from 'aws-sdk'
 AWS.config.update({ region: 'us-east-1' })
