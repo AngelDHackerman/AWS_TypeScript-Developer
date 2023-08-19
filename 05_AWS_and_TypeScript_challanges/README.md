@@ -27,12 +27,17 @@ You'll be prompted to enter your `AWS Access Key ID`, `Secret Access Key`, `defa
 You'll need the AWS SDK to interact with AWS services programmatically. In your project directory, run:
 
 ```
+npm init -y
+```
+
+```
 npm install aws-sdk
 ```
 
 ## Step 4: Install TypeScript and AWS SDK Type Definitions
 
 Since you'll be working with TypeScript, you'll need to install TypeScript and the type definitions for the AWS SDK. Run:
+
 
 ```
 npm install typescript @types/node @types/aws-sdk
