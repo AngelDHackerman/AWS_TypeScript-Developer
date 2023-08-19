@@ -535,7 +535,8 @@ __Expected Result:__ A set of Lambda functions that can manage inventory items i
 
   __Use Case:__ Many businesses, ranging from marketing agencies to SaaS companies, can benefit from a real-time analytics dashboard. It can track user behavior, page views, conversion rates, etc., providing valuable insights for decision-making, optimizing marketing strategies, and enhancing user experience.
 
-Subchallenge 1: Create a Table for Storing Analytics Data in DynamoDB
+
+#### Subchallenge 1: Create a Table for Storing Analytics Data in DynamoDB
 Context: You need a table to store real-time analytics data.
 
 Steps:
@@ -560,23 +561,29 @@ Expected Result: A Lambda function that can update real-time analytics data in D
 
   __Use Case:__ E-commerce platforms, restaurants with online ordering, or any business that takes customer orders online can use this system. It automates the entire order processing workflow, from payment to shipping, ensuring efficiency, accuracy, and timely delivery, leading to improved customer satisfaction.
 
-Subchallenge 1: Create an Orders Table in DynamoDB
-Context: You need a table to store customer orders.
+#### Subchallenge 1: Create an Orders Table in DynamoDB
 
-Steps:
+__Context:__ You need a table to store customer orders.
 
-Create a DynamoDB table with appropriate attributes (e.g., orderID, status).
-Configure the table with suitable read and write capacity.
-Expected Result: A DynamoDB table ready to store order information.
+__Steps:__
 
-Subchallenge 2: Create Lambda Functions to Process Orders
-Context: These functions will handle order processing, including payment and shipping.
+* Create a DynamoDB table with appropriate attributes (e.g., orderID, status).
 
-Steps:
+* Configure the table with suitable read and write capacity.
 
-Write TypeScript Lambda functions for processing orders.
-Deploy the functions using AWS SDK or web interface.
-Expected Result: A set of Lambda functions that can process orders in DynamoDB.
+__Expected Result:__ A DynamoDB table ready to store order information.
+
+#### Subchallenge 2: Create Lambda Functions to Process Orders
+
+__Context:__ These functions will handle order processing, including payment and shipping.
+
+__Steps:__
+
+* Write TypeScript Lambda functions for processing orders.
+
+* Deploy the functions using AWS SDK or web interface.
+
+__Expected Result:__ A set of Lambda functions that can process orders in DynamoDB.
 
 ### 5. Challenge: Scheduled Data Cleanup
 
@@ -585,23 +592,26 @@ Expected Result: A set of Lambda functions that can process orders in DynamoDB.
 
   __Use Case:__ This system is applicable in scenarios where temporary or time-sensitive data is generated, such as temporary user sessions, cache data, or trial subscriptions in various online services. Regular cleanup ensures that only relevant data is maintained, improving system performance and compliance with data retention policies.
 
-Subchallenge 1: Create a Table for Storing Temporary Data in DynamoDB
-Context: You need a table to store temporary data that should be cleaned up regularly.
+#### Subchallenge 1: Create a Table for Storing Temporary Data in DynamoDB
 
-Steps:
+__Context:__ You need a table to store temporary data that should be cleaned up regularly.
 
-Create a DynamoDB table with appropriate attributes (e.g., tempID, expirationDate).
-Configure the table with suitable read and write capacity.
-Expected Result: A DynamoDB table ready to store temporary data.
+__Steps:__
 
-Subchallenge 2: Create a Scheduled Lambda Function for Data Cleanup
-Context: This function will run on a schedule to clean up expired data.
+* Create a DynamoDB table with appropriate attributes (e.g., tempID, expirationDate).
 
-Steps:
+* Configure the table with suitable read and write capacity.
 
-Write a TypeScript Lambda function to delete expired data.
-Schedule the function using EventBridge.
-Expected Result: A Lambda function that regularly cleans up expired data in DynamoDB.
+__Expected Result:__ A DynamoDB table ready to store temporary data.
 
-Estos ejercicios te ayudarán a familiarizarte con diferentes aspectos de DynamoDB y Lambda Functions en AWS usando TypeScript. ¡Buena suerte con tu aprendizaje y desarrollo de habilidades!
+#### Subchallenge 2: Create a Scheduled Lambda Function for Data Cleanup
 
+__Context:__ This function will run on a schedule to clean up expired data.
+
+__Steps:__
+
+* Write a TypeScript Lambda function to delete expired data.
+
+* Schedule the function using EventBridge.
+
+__Expected Result:__ A Lambda function that regularly cleans up expired data in DynamoDB.
