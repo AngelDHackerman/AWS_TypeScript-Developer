@@ -61,9 +61,7 @@ add the following content:
     "outDir": "./dist",
     "strict": true,
     "esModuleInterop": true
-  },
-  "include": ["src/**/*.ts"],
-  "exclude": ["node_modules"]
+  }
 }
 ```
 
