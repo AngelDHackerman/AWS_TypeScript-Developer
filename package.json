@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/AngelDHackerman/AWS_TypeScript-Developer#readme",
   "dependencies": {
-    "aws-sdk": "^2.1440.0"
+    "@types/aws-sdk": "^2.7.0",
+    "@types/node": "^20.5.1",
+    "aws-sdk": "^2.1440.0",
+    "typescript": "^5.1.6"
   }
 }

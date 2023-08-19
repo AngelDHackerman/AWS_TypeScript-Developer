@@ -40,7 +40,13 @@ npm install typescript @types/node @types/aws-sdk
 
 ## Step 5: Set Up Your TypeScript Project
 
-Create a `tsconfig.json` file in your project directory with the following content:
+Create a `tsconfig.json` file in your project directory: 
+
+```
+tsc --init
+```
+
+add the following content:
 
 ```
 {

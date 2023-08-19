@@ -1,0 +1,17 @@
+{
+  "name": "05_aws_and_typescript_challanges",
+  "version": "1.0.0",
+  "description": "> This guide will help you set up your development environment to work with AWS services, including DynamoDB and Lambda Functions, using TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "@types/node": "^20.5.1",
+    "aws-sdk": "^2.1440.0",
+    "typescript": "^5.1.6"
+  }
+}
