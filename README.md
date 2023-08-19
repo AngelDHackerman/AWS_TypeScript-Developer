@@ -535,7 +535,10 @@ Write a TypeScript Lambda function to update analytics data.
 Deploy the function using AWS SDK or web interface.
 Expected Result: A Lambda function that can update real-time analytics data in DynamoDB.
 
-4. Challenge: Order Processing System
+### 4. Challenge: Order Processing System
+
+General Context: In this challenge, you are to develop an order processing system that handles customer orders from placement to shipping. This involves creating a DynamoDB table for orders and writing Lambda functions to process these orders, including handling payment and shipping details. The system should be able to manage and track orders efficiently.
+
 Subchallenge 1: Create an Orders Table in DynamoDB
 Context: You need a table to store customer orders.
 
@@ -554,7 +557,10 @@ Write TypeScript Lambda functions for processing orders.
 Deploy the functions using AWS SDK or web interface.
 Expected Result: A set of Lambda functions that can process orders in DynamoDB.
 
-5. Challenge: Scheduled Data Cleanup
+### 5. Challenge: Scheduled Data Cleanup
+
+General Context: The objective of this challenge is to build a system that regularly cleans up temporary or expired data from a DynamoDB table. You'll create a table for storing temporary data and write a scheduled Lambda function to delete this data based on expiration dates. This will ensure that the system maintains only relevant data and operates efficiently.
+
 Subchallenge 1: Create a Table for Storing Temporary Data in DynamoDB
 Context: You need a table to store temporary data that should be cleaned up regularly.
 
