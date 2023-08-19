@@ -452,7 +452,10 @@ __Expected Output:__
 
 ### 1. Challenge: User Registration and Notification System
 
-> __General Context:__ In this challenge, you are tasked with building a user registration system that not only stores user information in a DynamoDB table but also sends welcome notifications via email. This involves creating a DynamoDB table, writing Lambda functions for registration and email notifications, and connecting them using EventBridge.
+-
+  __General Context:__ In this challenge, you are tasked with building a user registration system that not only stores user information in a DynamoDB table but also sends welcome notifications via email. This involves creating a DynamoDB table, writing Lambda functions for registration and email notifications, and connecting them using EventBridge.
+
+  __Use Case:__ This system can be implemented in any online platform that requires user registration, such as e-commerce websites, social media platforms, or online educational portals. When a user registers, they are added to the database, and a welcome email is sent, enhancing user engagement and providing a personalized experience.
 
 __Subchallenge 1:__ Create a User Table in DynamoDB
 
@@ -493,7 +496,11 @@ __Expected Result:__ A system that registers users and sends welcome emails.
 
 ### 2. Challenge: Inventory Management System
 
-General Context: The goal of this challenge is to create a robust inventory management system using DynamoDB and Lambda functions. You'll need to design a DynamoDB table to store inventory items and write TypeScript Lambda functions to handle CRUD operations. This will allow for real-time tracking and management of inventory items.
+- 
+  __General Context:__ The goal of this challenge is to create a robust inventory management system using DynamoDB and Lambda functions. You'll need to design a DynamoDB table to store inventory items and write TypeScript Lambda functions to handle CRUD operations. This will allow for real-time tracking and management of inventory items.
+
+  __Use Case:__ Retail businesses, both online and brick-and-mortar, can utilize this system to manage their inventory. It allows for real-time tracking of products, quantities, and locations, helping in restocking, reducing overstock, and providing insights into sales trends.
+
 
 Subchallenge 1: Create an Inventory Table in DynamoDB
 Context: You need a table to store inventory items.
@@ -515,7 +522,10 @@ Expected Result: A set of Lambda functions that can manage inventory items in Dy
 
 ### 3. Challenge: Real-time Analytics Dashboard
 
-General Context: This challenge focuses on building a real-time analytics dashboard that stores and updates data in a DynamoDB table. You'll create a table for analytics data and write a Lambda function to update this data in real-time. This system will enable monitoring and visualization of real-time analytics such as page views and user counts.
+- 
+  __General Context:__ This challenge focuses on building a real-time analytics dashboard that stores and updates data in a DynamoDB table. You'll create a table for analytics data and write a Lambda function to update this data in real-time. This system will enable monitoring and visualization of real-time analytics such as page views and user counts.
+
+  __Use Case:__ Many businesses, ranging from marketing agencies to SaaS companies, can benefit from a real-time analytics dashboard. It can track user behavior, page views, conversion rates, etc., providing valuable insights for decision-making, optimizing marketing strategies, and enhancing user experience.
 
 Subchallenge 1: Create a Table for Storing Analytics Data in DynamoDB
 Context: You need a table to store real-time analytics data.
@@ -537,7 +547,10 @@ Expected Result: A Lambda function that can update real-time analytics data in D
 
 ### 4. Challenge: Order Processing System
 
-General Context: In this challenge, you are to develop an order processing system that handles customer orders from placement to shipping. This involves creating a DynamoDB table for orders and writing Lambda functions to process these orders, including handling payment and shipping details. The system should be able to manage and track orders efficiently.
+- 
+  __General Context:__ In this challenge, you are to develop an order processing system that handles customer orders from placement to shipping. This involves creating a DynamoDB table for orders and writing Lambda functions to process these orders, including handling payment and shipping details. The system should be able to manage and track orders efficiently.
+
+  __Use Case:__ E-commerce platforms, restaurants with online ordering, or any business that takes customer orders online can use this system. It automates the entire order processing workflow, from payment to shipping, ensuring efficiency, accuracy, and timely delivery, leading to improved customer satisfaction.
 
 Subchallenge 1: Create an Orders Table in DynamoDB
 Context: You need a table to store customer orders.
@@ -559,7 +572,10 @@ Expected Result: A set of Lambda functions that can process orders in DynamoDB.
 
 ### 5. Challenge: Scheduled Data Cleanup
 
-General Context: The objective of this challenge is to build a system that regularly cleans up temporary or expired data from a DynamoDB table. You'll create a table for storing temporary data and write a scheduled Lambda function to delete this data based on expiration dates. This will ensure that the system maintains only relevant data and operates efficiently.
+- 
+  __General Context:__ The objective of this challenge is to build a system that regularly cleans up temporary or expired data from a DynamoDB table. You'll create a table for storing temporary data and write a scheduled Lambda function to delete this data based on expiration dates. This will ensure that the system maintains only relevant data and operates efficiently.
+
+  __Use Case:__ This system is applicable in scenarios where temporary or time-sensitive data is generated, such as temporary user sessions, cache data, or trial subscriptions in various online services. Regular cleanup ensures that only relevant data is maintained, improving system performance and compliance with data retention policies.
 
 Subchallenge 1: Create a Table for Storing Temporary Data in DynamoDB
 Context: You need a table to store temporary data that should be cleaned up regularly.
