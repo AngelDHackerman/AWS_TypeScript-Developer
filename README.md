@@ -457,7 +457,8 @@ __Expected Output:__
 
   __Use Case:__ This system can be implemented in any online platform that requires user registration, such as e-commerce websites, social media platforms, or online educational portals. When a user registers, they are added to the database, and a welcome email is sent, enhancing user engagement and providing a personalized experience.
 
-__Subchallenge 1:__ Create a User Table in DynamoDB
+
+#### Subchallenge 1: Create a User Table in DynamoDB
 
 __Context:__ You will need a DynamoDB table to store user information.
 
@@ -470,7 +471,7 @@ __Steps:__
 
 __Expected Result:__ A DynamoDB table ready to store user information.
 
-__Subchallenge 2:__ Create a Lambda Function for User Registration.
+#### Subchallenge 2: Create a Lambda Function for User Registration.
 
 __Context:__ This Lambda function will handle user registration and store the data in the DynamoDB table.
 
@@ -482,7 +483,7 @@ __Steps:__
 
 __Expected Result:__ A Lambda function that can register users and store them in DynamoDB.
 
-__Subchallenge 3:__ Create a Lambda Function for Sending Notifications
+#### Subchallenge 3: Create a Lambda Function for Sending Notifications
 
 __Context:__ This function will send welcome emails to users after registration.
 
@@ -502,14 +503,17 @@ __Expected Result:__ A system that registers users and sends welcome emails.
   __Use Case:__ Retail businesses, both online and brick-and-mortar, can utilize this system to manage their inventory. It allows for real-time tracking of products, quantities, and locations, helping in restocking, reducing overstock, and providing insights into sales trends.
 
 
-Subchallenge 1: Create an Inventory Table in DynamoDB
-Context: You need a table to store inventory items.
+### Subchallenge 1: Create an Inventory Table in DynamoDB
 
-Steps:
+__Context:__ You need a table to store inventory items.
 
-Create a DynamoDB table with appropriate attributes (e.g., productID, quantity).
-Configure the table with suitable read and write capacity.
-Expected Result: A DynamoDB table ready to store inventory information.
+__Steps:__
+
+* Create a DynamoDB table with appropriate attributes (e.g., productID, quantity).
+
+* Configure the table with suitable read and write capacity.
+
+__Expected Result:__ A DynamoDB table ready to store inventory information.
 
 Subchallenge 2: Create Lambda Functions for CRUD Operations
 Context: These functions will handle creating, reading, updating, and deleting inventory items.
