@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AngelDHackerman/AWS_TypeScript-Developer/issues"
   },
-  "homepage": "https://github.com/AngelDHackerman/AWS_TypeScript-Developer#readme"
+  "homepage": "https://github.com/AngelDHackerman/AWS_TypeScript-Developer#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1440.0"
+  }
 }

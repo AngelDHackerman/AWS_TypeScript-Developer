@@ -16,7 +16,9 @@ First, you'll need to install the AWS Command Line Interface (CLI). Follow the i
 
 Once the AWS CLI is installed, you'll need to configure it with your AWS credentials. Open a terminal and run:
 
-`aws configure`
+```
+aws configure
+```
 
 You'll be prompted to enter your `AWS Access Key ID`, `Secret Access Key`, `default region`, and `default output format`. You can find these details in your AWS Management Console.
 
@@ -24,13 +26,17 @@ You'll be prompted to enter your `AWS Access Key ID`, `Secret Access Key`, `defa
 
 You'll need the AWS SDK to interact with AWS services programmatically. In your project directory, run:
 
-`npm install aws-sdk`
+```
+npm install aws-sdk
+```
 
 ## Step 4: Install TypeScript and AWS SDK Type Definitions
 
 Since you'll be working with TypeScript, you'll need to install TypeScript and the type definitions for the AWS SDK. Run:
 
-`npm install typescript @types/node @types/aws-sdk`
+```
+npm install typescript @types/node @types/aws-sdk
+```
 
 ## Step 5: Set Up Your TypeScript Project
 
@@ -56,7 +62,9 @@ You can now write your TypeScript code to interact with AWS services like Dynamo
 
 To compile your TypeScript code, run:
 
-`tsc --watch`
+```
+tsc --watch
+```
 
 To deploy your code to AWS, you can use the AWS CLI, AWS CloudFormation, or other deployment tools like the Serverless Framework.
 
