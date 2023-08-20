@@ -19,7 +19,7 @@ exports.handler = async (event: any) => {
         Data: 'Welcome to Our Platform',
       },
     },
-    Source: 'angeldariohs@gmail.com'
+    Source: 'XXXXXXXX@mail.com'
   }
 
   try{ 

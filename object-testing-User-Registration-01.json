@@ -1,23 +1,4 @@
 {
-  "Records": [
-    {
-      "eventID": "1",
-      "eventName": "INSERT",
-      "dynamodb": {
-        "Keys": {
-          "Id": {
-            "N": "101"
-          }
-        },
-        "NewImage": {
-          "Message": {
-            "S": "New item!"
-          },
-          "Id": {
-            "N": "101"
-          }
-        }
-      }
-    }
-  ]
+  "username": "john_doe",
+  "email": "john.doe@example.com"
 }
