@@ -455,7 +455,7 @@ __Expected Output:__
 ### 1. Challenge: User Registration and Notification System
 
 -
-  __General Context:__ In this challenge, you are tasked with building a user registration system that not only stores user information in a DynamoDB table but also sends welcome notifications via email. This involves creating a DynamoDB table, writing Lambda functions for registration and email notifications, and connecting them using EventBridge.
+  __General Context:__ In this challenge, you are tasked with building a user registration system that not only stores user information in a DynamoDB table but also sends welcome notifications via email. __This involves creating a DynamoDB table, writing Lambda functions for registration and email notifications, and connecting them using EventBridge.__
 
   __Use Case:__ This system can be implemented in any online platform that requires user registration, such as e-commerce websites, social media platforms, or online educational portals. When a user registers, they are added to the database, and a welcome email is sent, enhancing user engagement and providing a personalized experience.
 
