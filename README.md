@@ -617,3 +617,5 @@ __Steps:__
 * Schedule the function using EventBridge.
 
 __Expected Result:__ A Lambda function that regularly cleans up expired data in DynamoDB.
+
+hola
