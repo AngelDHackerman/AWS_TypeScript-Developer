@@ -17,7 +17,7 @@ exports.handler = async (event: any) => {
   }
 
   try { 
-    await dynamoDB.put(params).promise()
+    await dynamoDB.put(params).promise()  // La llamada a .promise() convierte la operación en una promesa, permitiendo el uso de await.
     return { 
       statusCode: 200,
       body: JSON.stringify('User registered successfully!'),
