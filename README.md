@@ -9,6 +9,7 @@ Here you'll find the Typescript challanges that Chat-gpt challanged me to resolv
 - [TypeScript Using Interfaces](#typescript-using-interfaces)
 - [Asynchronous Typescript](#asynchronous-typescript)
 - [AWS and Typescript challanges](#aws-and-typescript-challanges)
+- [Advance TypeScript Exercises](#advance-typescript-exercises)
 
 <details>
 <summary>How to Install and Use</summary>
@@ -617,3 +618,6 @@ __Steps:__
 * Schedule the function using EventBridge.
 
 __Expected Result:__ A Lambda function that regularly cleans up expired data in DynamoDB.
+
+
+## Advance TypeScript Exercises
