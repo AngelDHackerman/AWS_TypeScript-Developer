@@ -621,3 +621,152 @@ __Expected Result:__ A Lambda function that regularly cleans up expired data in 
 
 
 ## Advance TypeScript Exercises
+
+## 1. Generic Types
+
+### Exercise 1.1: Generic Function to Swap Pairs
+
+__Exercise Context:__ Create a generic function that can swap two values of any type.
+
+__Input:__ 
+
+```
+(a: T, b: T) => [b, a]
+```
+
+__Expected Output:__ 
+
+`A reversed pair of the input values.`
+
+### Exercise 1.2: Generic Class for a Stack
+
+__Exercise Context:__ Implement a generic stack class that can store elements of any type.
+
+__Input:__ 
+
+`Methods to push, pop, and peek the top element.`
+
+__Expected Output:__ 
+
+`Correct stack behavior with elements of the specified type.`
+
+### Exercise 1.3: Generic Constraints
+
+__Exercise Context:__ Create a generic function that accepts an object with a specific property.
+
+__Input:__ 
+
+```
+(obj: T) => obj.key
+```
+
+__Expected Output:__ 
+
+`Correct handling of objects with the specified property.`
+
+## 2. Union and Intersection Types
+
+### Exercise 2.1: Union Types for User Roles
+
+__Exercise Context:__ Use union types to define different user roles in an application.
+
+__Input:__ 
+
+```
+type UserRole = 'admin' | 'user' | 'guest';
+```
+__Expected Output:__ 
+
+`Correct usage of roles within the application.`
+
+### Exercise 2.2: Intersection Types for Extending Interfaces
+
+__Exercise Context:__ Use intersection types to extend interfaces and create a complex object.
+
+__Input:__ 
+
+`Two or more interfaces to be combined.`
+
+__Expected Output:__ An object that meets all combined interfaces.
+
+### Exercise 2.3: Function Overloading with Union Types
+
+__Exercise Context:__ Create function overloads using union types to handle different input types.
+
+__Input:__ 
+
+`Different types of input data.`
+
+__Expected Output:__ 
+
+`Correct function behavior based on input type.`
+
+3. Type Flow Control
+Exercise 3.1: Type Guards with typeof
+Exercise Context: Use type guards with typeof to write a type-safe function.
+Input: Different types of data.
+Expected Output: Correct behavior based on input data type.
+Exercise 3.2: User Defined Type Guards
+Exercise Context: Create a user-defined type guard to validate a complex object structure.
+Input: Object with specific structure.
+Expected Output: Correct object validation.
+Exercise 3.3: Discriminated Unions
+Exercise Context: Implement discriminated unions to create objects with specific shapes.
+Input: Different object shapes with a common discriminant property.
+Expected Output: Correct handling of objects based on their shape.
+
+4. Namespaces and Modules
+Exercise 4.1: Namespace for Utility Functions
+Exercise Context: Organize a collection of utility functions into a namespace.
+Input: Set of related functions.
+Expected Output: Correctly defined and used namespace.
+Exercise 4.2: Module Export and Import
+Exercise Context: Create and use modules to organize code across different files.
+Input: Functions and classes in different files.
+Expected Output: Correct import and export between modules.
+Exercise 4.3: Dynamic Module Loading
+Exercise Context: Implement dynamic module loading using import expressions.
+Input: Module paths to be loaded dynamically.
+Expected Output: Successful dynamic loading of modules.
+
+5. Advanced Compiler Configuration
+Exercise 5.1: Custom Compiler Options
+Exercise Context: Configure custom compiler options in the tsconfig.json file.
+Input: Specific options like noImplicitAny, strictNullChecks, etc.
+Expected Output: Compiler behavior according to configured options.
+Exercise 5.2: Path Aliases
+Exercise Context: Configure path aliases in tsconfig.json to simplify imports.
+Input: Complex and nested paths.
+Expected Output: Simplified imports using aliases.
+Exercise 5.3: Incremental Compilation
+Exercise Context: Set up incremental compilation to improve build times.
+Input: Large TypeScript project.
+Expected Output: Faster compilation times with incremental builds.
+
+6. Integration with Modern Tools
+Exercise 6.1: Integrating with a Build Tool (e.g., Webpack)
+Exercise Context: Integrate TypeScript with a build tool like Webpack.
+Input: Webpack configuration and TypeScript code.
+Expected Output: Successful compilation and bundling of code.
+Exercise 6.2: Setting Up ESLint with TypeScript
+Exercise Context: Configure ESLint to work with TypeScript and ensure code quality.
+Input: TypeScript code and ESLint configuration.
+Expected Output: Successful linting and style error correction.
+Exercise 6.3: Integrating with Testing Framework (e.g., Jest)
+Exercise Context: Set up a testing framework like Jest with TypeScript.
+Input: TypeScript test cases and Jest configuration.
+Expected Output: Successful test execution and reporting.
+
+7. Design Patterns
+Exercise 7.1: Implementing Dependency Injection
+Exercise Context: Implement the Dependency Injection pattern in a class or function.
+Input: Classes or functions requiring dependencies.
+Expected Output: Successful dependency injection and correct code behavior.
+Exercise 7.2: Singleton Pattern
+Exercise Context: Implement the Singleton pattern to ensure a single instance of a class.
+Input: Class that must be Singleton.
+Expected Output: Single instance of the class created.
+Exercise 7.3: Factory Pattern
+Exercise Context: Implement the Factory pattern to create objects with a common interface.
+Input: Different object types with a common interface.
+Expected Output: Correct object creation based on input parameters.
