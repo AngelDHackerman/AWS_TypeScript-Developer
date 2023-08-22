@@ -770,44 +770,119 @@ __Expected Output:__
 
 `Successful dynamic loading of modules.`
 
-5. Advanced Compiler Configuration
-Exercise 5.1: Custom Compiler Options
-Exercise Context: Configure custom compiler options in the tsconfig.json file.
-Input: Specific options like noImplicitAny, strictNullChecks, etc.
-Expected Output: Compiler behavior according to configured options.
-Exercise 5.2: Path Aliases
-Exercise Context: Configure path aliases in tsconfig.json to simplify imports.
-Input: Complex and nested paths.
-Expected Output: Simplified imports using aliases.
-Exercise 5.3: Incremental Compilation
-Exercise Context: Set up incremental compilation to improve build times.
-Input: Large TypeScript project.
-Expected Output: Faster compilation times with incremental builds.
+## 5. Advanced Compiler Configuration
 
-6. Integration with Modern Tools
-Exercise 6.1: Integrating with a Build Tool (e.g., Webpack)
-Exercise Context: Integrate TypeScript with a build tool like Webpack.
-Input: Webpack configuration and TypeScript code.
-Expected Output: Successful compilation and bundling of code.
-Exercise 6.2: Setting Up ESLint with TypeScript
-Exercise Context: Configure ESLint to work with TypeScript and ensure code quality.
-Input: TypeScript code and ESLint configuration.
-Expected Output: Successful linting and style error correction.
-Exercise 6.3: Integrating with Testing Framework (e.g., Jest)
-Exercise Context: Set up a testing framework like Jest with TypeScript.
-Input: TypeScript test cases and Jest configuration.
-Expected Output: Successful test execution and reporting.
+### Exercise 5.1: Custom Compiler Options
 
-7. Design Patterns
-Exercise 7.1: Implementing Dependency Injection
-Exercise Context: Implement the Dependency Injection pattern in a class or function.
-Input: Classes or functions requiring dependencies.
-Expected Output: Successful dependency injection and correct code behavior.
-Exercise 7.2: Singleton Pattern
-Exercise Context: Implement the Singleton pattern to ensure a single instance of a class.
-Input: Class that must be Singleton.
-Expected Output: Single instance of the class created.
-Exercise 7.3: Factory Pattern
-Exercise Context: Implement the Factory pattern to create objects with a common interface.
-Input: Different object types with a common interface.
-Expected Output: Correct object creation based on input parameters.
+__Exercise Context:__ Configure custom compiler options in the tsconfig.json file.
+
+__Input:__ 
+
+`Specific options like noImplicitAny, strictNullChecks, etc.`
+
+__Expected Output:__ 
+
+`Compiler behavior according to configured options.`
+
+### Exercise 5.2: Path Aliases
+
+__Exercise Context:__ Configure path aliases in tsconfig.json to simplify imports.
+
+__Input:__ 
+
+`Complex and nested paths.`
+
+__Expected Output:__ 
+
+`Simplified imports using aliases.`
+
+### Exercise 5.3: Incremental Compilation
+
+__Exercise Context:__ Set up incremental compilation to improve build times.
+
+__Input:__ 
+
+`Large TypeScript project.`
+
+__Expected Output:__ 
+
+`Faster compilation times with incremental builds.`
+
+## 6. Integration with Modern Tools
+
+### Exercise 6.1: Integrating with a Build Tool (e.g., Webpack)
+
+__Exercise Context__: Integrate TypeScript with a build tool like Webpack.
+
+__Input:__ 
+
+`Webpack configuration and TypeScript code.`
+
+__Expected Output:__ 
+
+`Successful compilation and bundling of code.`
+
+
+### Exercise 6.2: Setting Up ESLint with TypeScript
+
+__Exercise Context__: Configure ESLint to work with TypeScript and ensure code quality.
+
+__Input:__ 
+
+`TypeScript code and ESLint configuration.`
+
+__Expected Output:__ 
+
+`Successful linting and style error correction.`
+
+
+### Exercise 6.3: Integrating with Testing Framework (e.g., Jest)
+
+__Exercise Context__: Set up a testing framework like Jest with TypeScript.
+
+__Input:__ 
+
+`TypeScript test cases and Jest configuration.`
+
+__Expected Output:__ 
+
+`Successful test execution and reporting.`
+
+
+## 7. Design Patterns
+
+### Exercise 7.1: Implementing Dependency Injection
+
+__Exercise Context__: Implement the Dependency Injection pattern in a class or function.
+
+__Input:__ 
+
+`Classes or functions requiring dependencies.`
+
+__Expected Output:__ 
+
+`Successful dependency injection and correct code behavior.`
+
+### Exercise 7.2: Singleton Pattern
+
+__Exercise Context__: Implement the Singleton pattern to ensure a single instance of a class.
+
+__Input:__ 
+
+`Class that must be Singleton.`
+
+__Expected Output:__ 
+
+`Single instance of the class created.`
+
+### Exercise 7.3: Factory Pattern
+
+__Exercise Context__: Implement the Factory pattern to create objects with a common interface.
+
+__Input:__ 
+
+`Different object types with a common interface.`
+
+__Expected Output:__ 
+
+`Correct object creation based on input parameters.`
