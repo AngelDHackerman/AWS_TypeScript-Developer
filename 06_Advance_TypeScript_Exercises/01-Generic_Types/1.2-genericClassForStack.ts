@@ -24,4 +24,21 @@ class Stack<T> {
   }
 
   // Method to get the size of the stack
+  size(): number { 
+    return this.items.length;
+  }
 }
+
+// Example Usage:
+const numberStack = new Stack<number>();
+numberStack.push(5);
+numberStack.push(10);
+numberStack.push(15);
+numberStack.push(20);
+
+console.log(numberStack.peek()); // Output: 20
+console.log(numberStack.pop());  // Output: 20
+console.log(numberStack.isEmpty())  // Output: false
+console.log(numberStack.size()); // Output: 3
+
+
