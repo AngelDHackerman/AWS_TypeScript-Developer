@@ -701,33 +701,74 @@ __Expected Output:__
 
 `Correct function behavior based on input type.`
 
-3. Type Flow Control
-Exercise 3.1: Type Guards with typeof
-Exercise Context: Use type guards with typeof to write a type-safe function.
-Input: Different types of data.
-Expected Output: Correct behavior based on input data type.
-Exercise 3.2: User Defined Type Guards
-Exercise Context: Create a user-defined type guard to validate a complex object structure.
-Input: Object with specific structure.
-Expected Output: Correct object validation.
+## 3. Type Flow Control
+
+### Exercise 3.1: Type Guards with typeof
+
+__Exercise Context:__ Use type guards with typeof to write a type-safe function.
+
+__Input:__ 
+
+`Different types of data.`
+
+__Expected Output:__ 
+
+`Correct behavior based on input data type.`
+
+### Exercise 3.2: User Defined Type Guards
+
+__Exercise Context:__ Create a user-defined type guard to validate a complex object structure.
+
+__Input:__ 
+
+`Object with specific structure.`
+
+__Expected Output:__ 
+
+`Correct object validation.`
+
 Exercise 3.3: Discriminated Unions
 Exercise Context: Implement discriminated unions to create objects with specific shapes.
 Input: Different object shapes with a common discriminant property.
 Expected Output: Correct handling of objects based on their shape.
 
-4. Namespaces and Modules
-Exercise 4.1: Namespace for Utility Functions
-Exercise Context: Organize a collection of utility functions into a namespace.
-Input: Set of related functions.
-Expected Output: Correctly defined and used namespace.
-Exercise 4.2: Module Export and Import
-Exercise Context: Create and use modules to organize code across different files.
-Input: Functions and classes in different files.
-Expected Output: Correct import and export between modules.
-Exercise 4.3: Dynamic Module Loading
-Exercise Context: Implement dynamic module loading using import expressions.
-Input: Module paths to be loaded dynamically.
-Expected Output: Successful dynamic loading of modules.
+## 4. Namespaces and Modules
+
+### Exercise 4.1: Namespace for Utility Functions
+
+__Exercise Context:__ Organize a collection of utility functions into a namespace.
+
+__Input:__ 
+
+`Set of related functions.`
+
+__Expected Output:__ 
+
+`Correctly defined and used namespace.`
+
+### Exercise 4.2: Module Export and Import
+
+__Exercise Context:__ Create and use modules to organize code across different files.
+
+__Input:__ 
+
+`Functions and classes in different files.`
+
+__Expected Output:__ 
+
+`Correct import and export between modules.`
+
+### Exercise 4.3: Dynamic Module Loading
+
+__Exercise Context:__ Implement dynamic module loading using import expressions.
+
+__Input:__ 
+
+`Module paths to be loaded dynamically.`
+
+__Expected Output:__ 
+
+`Successful dynamic loading of modules.`
 
 5. Advanced Compiler Configuration
 Exercise 5.1: Custom Compiler Options
