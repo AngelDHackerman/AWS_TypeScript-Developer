@@ -10,7 +10,7 @@ interface Employee {
   department: string;
 }
 
-type PersonEmployee = Person & Employee;
+type PersonEmployee = Person & Employee;  // Create a new type that inherits both properties of Person & Employee
 
 const createPersonEmployee = (person: Person, employee: Employee): PersonEmployee => ({ ...person, ...employee });
 
