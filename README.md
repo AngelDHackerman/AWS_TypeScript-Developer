@@ -9,6 +9,7 @@ Here you'll find the Typescript challanges that Chat-gpt challanged me to resolv
 - [TypeScript Using Interfaces](#typescript-using-interfaces)
 - [Asynchronous Typescript](#asynchronous-typescript)
 - [AWS and Typescript challanges](#aws-and-typescript-challanges)
+- [Advance TypeScript Exercises](#advance-typescript-exercises)
 
 <details>
 <summary>How to Install and Use</summary>
@@ -618,4 +619,270 @@ __Steps:__
 
 __Expected Result:__ A Lambda function that regularly cleans up expired data in DynamoDB.
 
-hola
+
+## Advance TypeScript Exercises
+
+## 1. Generic Types
+
+### Exercise 1.1: Generic Function to Swap Pairs
+
+__Exercise Context:__ Create a generic function that can swap two values of any type.
+
+__Input:__ 
+
+```
+(a: T, b: T) => [b, a]
+```
+
+__Expected Output:__ 
+
+`A reversed pair of the input values.`
+
+### Exercise 1.2: Generic Class for a Stack
+
+__Exercise Context:__ Implement a generic stack class that can store elements of any type.
+
+__Input:__ 
+
+`Methods to push, pop, and peek the top element.`
+
+__Expected Output:__ 
+
+`Correct stack behavior with elements of the specified type.`
+
+### Exercise 1.3: Generic Constraints
+
+__Exercise Context:__ Create a generic function that accepts an object with a specific property.
+
+__Input:__ 
+
+```
+(obj: T) => obj.key
+```
+
+__Expected Output:__ 
+
+`Correct handling of objects with the specified property.`
+
+## 2. Union and Intersection Types
+
+### Exercise 2.1: Union Types for User Roles
+
+__Exercise Context:__ Use union types to define different user roles in an application.
+
+__Input:__ 
+
+```
+type UserRole = 'admin' | 'user' | 'guest';
+```
+__Expected Output:__ 
+
+`Correct usage of roles within the application.`
+
+### Exercise 2.2: Intersection Types for Extending Interfaces
+
+__Exercise Context:__ Use intersection types to extend interfaces and create a complex object.
+
+__Input:__ 
+
+`Two or more interfaces to be combined.`
+
+__Expected Output:__ An object that meets all combined interfaces.
+
+### Exercise 2.3: Function Overloading with Union Types
+
+__Exercise Context:__ Create function overloads using union types to handle different input types.
+
+__Input:__ 
+
+`Different types of input data.`
+
+__Expected Output:__ 
+
+`Correct function behavior based on input type.`
+
+## 3. Type Flow Control
+
+### Exercise 3.1: Type Guards with typeof
+
+__Exercise Context:__ Use type guards with typeof to write a type-safe function.
+
+__Input:__ 
+
+`Different types of data.`
+
+__Expected Output:__ 
+
+`Correct behavior based on input data type.`
+
+### Exercise 3.2: User Defined Type Guards
+
+__Exercise Context:__ Create a user-defined type guard to validate a complex object structure.
+
+__Input:__ 
+
+`Object with specific structure.`
+
+__Expected Output:__ 
+
+`Correct object validation.`
+
+Exercise 3.3: Discriminated Unions
+Exercise Context: Implement discriminated unions to create objects with specific shapes.
+Input: Different object shapes with a common discriminant property.
+Expected Output: Correct handling of objects based on their shape.
+
+## 4. Namespaces and Modules
+
+### Exercise 4.1: Namespace for Utility Functions
+
+__Exercise Context:__ Organize a collection of utility functions into a namespace.
+
+__Input:__ 
+
+`Set of related functions.`
+
+__Expected Output:__ 
+
+`Correctly defined and used namespace.`
+
+### Exercise 4.2: Module Export and Import
+
+__Exercise Context:__ Create and use modules to organize code across different files.
+
+__Input:__ 
+
+`Functions and classes in different files.`
+
+__Expected Output:__ 
+
+`Correct import and export between modules.`
+
+### Exercise 4.3: Dynamic Module Loading
+
+__Exercise Context:__ Implement dynamic module loading using import expressions.
+
+__Input:__ 
+
+`Module paths to be loaded dynamically.`
+
+__Expected Output:__ 
+
+`Successful dynamic loading of modules.`
+
+## 5. Advanced Compiler Configuration
+
+### Exercise 5.1: Custom Compiler Options
+
+__Exercise Context:__ Configure custom compiler options in the tsconfig.json file.
+
+__Input:__ 
+
+`Specific options like noImplicitAny, strictNullChecks, etc.`
+
+__Expected Output:__ 
+
+`Compiler behavior according to configured options.`
+
+### Exercise 5.2: Path Aliases
+
+__Exercise Context:__ Configure path aliases in tsconfig.json to simplify imports.
+
+__Input:__ 
+
+`Complex and nested paths.`
+
+__Expected Output:__ 
+
+`Simplified imports using aliases.`
+
+### Exercise 5.3: Incremental Compilation
+
+__Exercise Context:__ Set up incremental compilation to improve build times.
+
+__Input:__ 
+
+`Large TypeScript project.`
+
+__Expected Output:__ 
+
+`Faster compilation times with incremental builds.`
+
+## 6. Integration with Modern Tools
+
+### Exercise 6.1: Integrating with a Build Tool (e.g., Webpack)
+
+__Exercise Context__: Integrate TypeScript with a build tool like Webpack.
+
+__Input:__ 
+
+`Webpack configuration and TypeScript code.`
+
+__Expected Output:__ 
+
+`Successful compilation and bundling of code.`
+
+
+### Exercise 6.2: Setting Up ESLint with TypeScript
+
+__Exercise Context__: Configure ESLint to work with TypeScript and ensure code quality.
+
+__Input:__ 
+
+`TypeScript code and ESLint configuration.`
+
+__Expected Output:__ 
+
+`Successful linting and style error correction.`
+
+
+### Exercise 6.3: Integrating with Testing Framework (e.g., Jest)
+
+__Exercise Context__: Set up a testing framework like Jest with TypeScript.
+
+__Input:__ 
+
+`TypeScript test cases and Jest configuration.`
+
+__Expected Output:__ 
+
+`Successful test execution and reporting.`
+
+
+## 7. Design Patterns
+
+### Exercise 7.1: Implementing Dependency Injection
+
+__Exercise Context__: Implement the Dependency Injection pattern in a class or function.
+
+__Input:__ 
+
+`Classes or functions requiring dependencies.`
+
+__Expected Output:__ 
+
+`Successful dependency injection and correct code behavior.`
+
+### Exercise 7.2: Singleton Pattern
+
+__Exercise Context__: Implement the Singleton pattern to ensure a single instance of a class.
+
+__Input:__ 
+
+`Class that must be Singleton.`
+
+__Expected Output:__ 
+
+`Single instance of the class created.`
+
+### Exercise 7.3: Factory Pattern
+
+__Exercise Context__: Implement the Factory pattern to create objects with a common interface.
+
+__Input:__ 
+
+`Different object types with a common interface.`
+
+__Expected Output:__ 
+
+`Correct object creation based on input parameters.`
