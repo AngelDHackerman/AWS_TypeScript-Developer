@@ -11,7 +11,7 @@ date2.toISOString();
 console.log(date)
 console.log(date2)
 
-let myVar;
+
 
 class MyDate {
   year: number;
@@ -24,3 +24,6 @@ class MyDate {
     this.day = day
   }
 }
+
+const myDate = new MyDate(2021, 3, 13);
+console.log(myDate)
