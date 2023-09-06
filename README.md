@@ -727,10 +727,17 @@ __Expected Output:__
 
 `Correct object validation.`
 
-Exercise 3.3: Discriminated Unions
-Exercise Context: Implement discriminated unions to create objects with specific shapes.
-Input: Different object shapes with a common discriminant property.
-Expected Output: Correct handling of objects based on their shape.
+### Exercise 3.3: Discriminated Unions
+
+__Exercise Context:__ Implement discriminated unions to create objects with specific shapes.
+
+__Input:__ 
+
+`Different object shapes with a common discriminant property.`
+
+__Expected Output:__ 
+
+`Correct handling of objects based on their shape.`
 
 ## 4. Namespaces and Modules
 
